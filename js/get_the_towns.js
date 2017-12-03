@@ -50,13 +50,13 @@ $("#input_click" ).click(function() {
 function create_cards_house(data,town_val) {
   key = data[town_val][0]
   $('.district').html(
-    $("<div class='title'>DISTRICT "+key.Ledgerstyle+"</div>")
+    $("<div class='title'>Municipality: "+key.Ledgerstyle+"</div>")
   );
   $('.house').html(
-    $("<div class='chamber'>ASSEMBLY</div>")
+    $("<div class='chamber'>"+key.County+" County</div>")
   );
  $('.house').append(
-    $("<div class='legislators'><div class='name'>" + key.Autopsy + "</div><div class='contact-info'><table class='geo-table'><tr><td>Yoooooooooooooo sdasd asodiasd asdoiasdoij asodiasd:</td><td><a href='tel:1-"+ key.Assembly_phone_1 + "'>" + key.Assembly_phone_1 + "</a></td></tr><tr><td> Email:</td><td><a href='mailto:" + key.Assembly_email_1 + "'>" + key.Assembly_email_1+"</a></td></tr><tr><td>Address:</td><td>"+ key.Assembly_office_1 +"</table></div></div>")
+    $("<div class='legislators'><p>You live in <span class='robotext'>"+ key.County + "</span> County. If you die under suspicious or strange circumstances, the <span class='robotext'>" + key.Ledgerstyle + "</span> office will be tasked with investigating your case.<br><br>In 2016, it conducted <span class='robotext'>" + key.Autopsy + "</span> autopsies, about <span class='robotext'>" + key.perautopsy + "%</span> of the cases they handled.</div>")
   );
   $('.house').append(
     $("<div class='legislators'><div class='name'>" + key.Assembly_2 + "</div><div class='contact-info'><table class='geo-table'><tr><td>Phone:</td><td><a href='tel:1-"+ key.Assembly_phone_1 + "'>" + key.Assembly_phone_2 + "</a></td></tr><tr><td> Email:</td><td><a href='mailto:" + key.Assembly_email_2 + "'>" + key.Assembly_email_2+"</a></td></tr><tr><td>Address:</td><td>"+ key.Assembly_office_2 +"</table></div></div>")

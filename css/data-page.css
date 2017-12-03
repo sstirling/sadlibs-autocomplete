@@ -6,9 +6,11 @@
 /*    padding:0px 0px 15px 2px;
 */}
 
-@font-face {
-    font-family: BentonSans;
-    src: url("BentonSans/BentonSans-Regular_sOT.otf") format("opentype");
+
+body {
+font-family: 'Nunito', sans-serif;
+font-size: 18px;
+
 }
 
 .njam-container div.btn-group.bootstrap-select {
@@ -20,7 +22,16 @@ h1, .banner, .district, .chamber,  {
 }
 
 p, .contact-info, .name {
-    font-family:BentonSans;
+font-family: 'Nunito', sans-serif;
+font-size: 14px; 
+}
+
+.robotext {
+font-family: 'Nunito', sans-serif;
+font-size: 18px;
+color: #702f34;
+font-style: bold;
+
 }
 
 .banner, .banner2 {
@@ -53,7 +64,7 @@ h1 {
 }
 
 .geo-form, .legislators {
-    background-color: #702f34;
+    background-color: #ffffff;
 }
 
 .geo-form {
@@ -61,12 +72,11 @@ h1 {
     margin:2px;
     font-size: 16px;
 /*    width:90%;
-*/  max-width:300px;
+*/  max-width:600px;
     clear:both;
 }
 
 .geo-form .towny {
-    color:#F0F0F0;
 }
 
 #town {
@@ -102,8 +112,7 @@ h1 {
 .legislators {
     margin:5px 5px 10px 5px;
     padding:5px 7px 5px 7px;
-    color:#F0F0F0;
-    max-width: 275px;
+    max-width: 600px;
 }
 
 .chamber {
