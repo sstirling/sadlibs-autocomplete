@@ -3,7 +3,7 @@
 */    fill: #333;
     max-width: 800px;
     margin:0px 0px 17px 5px;
-    height: 1000px;
+    height: 1500px;
 /*    padding:0px 0px 15px 2px;
 */}
 
@@ -45,7 +45,7 @@ font-style: bold;
 }
 
 .banner, .banner2 {
-    background-color:#4c6369;
+    background-color:#702f34;
     width: 100%;
     text-transform: uppercase;
     color:#fff;
@@ -62,6 +62,7 @@ font-style: bold;
     height:5px;
     bottom:10px;
     width:100%;
+    color:#702f34;
 }
 
 h1 {
@@ -73,7 +74,7 @@ h1 {
     clear: both;
 }
 
-.geo-form, .legislators {
+.geo-form, .sadlib-block {
     background-color: #ffffff;
 }
 
@@ -94,17 +95,13 @@ h1 {
 }
 
 #input_click{
-    background-color: #4c6369;
-    border-color: #4c6369; 
+    background-color: #702f34;
+    border-color: #702f34; 
      font-size: 14px;
     margin:2px;
 }
 
-.district {
-    font-size: 20px;
-}
-
-.legislators a {
+.sadlib-block a {
     color:#A7CDDA;
 }
 
@@ -119,13 +116,13 @@ h1 {
     font-weight: bold;
 }
 
-.legislators {
+.sadlib-block {
     margin:5px 5px 10px 5px;
     padding:5px 7px 5px 7px;
     max-width: 800px;
 }
 
-.legislators1 {
+.sadlib-block1 {
     margin:5px 5px 0px 5px;
     padding:5px 7px 0px 7px;
     max-width: 800px;
@@ -163,8 +160,23 @@ h1 {
     display:none;
 }*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 600px) {
     #njam-container {
         float:left;
     }
+    p, .contact-info, .name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px; 
 }
+
+    .robotext {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #702f34;
+    font-style: bold;
+
+}
+
+}
+
+
